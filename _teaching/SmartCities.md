@@ -7,4 +7,4 @@ venue: "Facultad de Geografía e Historia, Universidad Complutense de Madrid"
 date: 2022-06-21
 location: "Madrid, España"
 ---
-* Asignatura: Introducción a las Tecnologías de Información Geográfica (2020-2023)
+* Asignatura: Introducción a las Tecnologías de Información Geográfica (2020-2021, 2022-2024)
