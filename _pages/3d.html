@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-ar@1.8.2/aframe-ar.min.js"></script>
+  </head>
+  <body>
+    <a-scene embedded arjs>
+      <a-assets>
+        <a-asset-item id="model" src="https://www.rtalaverag.com/earth.glb"></a-asset-item>
+      </a-assets>
+      <a-entity gltf-model="#model" position="0 0 0" scale="1 1 1"></a-entity>
+    </a-scene>
+  </body>
+</html>
