@@ -25,16 +25,6 @@ var addressPoints = [
     -70.6504502
   ],
   [
-    "San Francisco, California",
-    37.7792588,
-    -122.4193286
-  ],
-  [
-    "Berkeley CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
     "Dublin, Ireland",
     53.3493795,
     -6.2605593
@@ -43,11 +33,6 @@ var addressPoints = [
     "London, UK",
     51.4893335,
     -0.14405508452768728
-  ],
-  [
-    "Los Angeles, CA",
-    34.0536909,
-    -118.242766
   ],
   [
     "Granada, Spain",
