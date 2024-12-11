@@ -46,8 +46,8 @@ var addressPoints = [
   ],
   [
     "C\u00e1ceres, Spain",
-    39.4020024,
-    -6.454580525853476
+    39.4745175,
+    -6.3716761
   ],
   [
     "Coimbra, Portugal",
@@ -58,5 +58,10 @@ var addressPoints = [
     "Santa Fe de la Veracruz, Argentina",
     -31.6417633,
     -60.7049979
+  ],
+  [
+    "Palma de Mallorca, Espa\u00f1a ",
+    39.5695818,
+    2.6500745
   ]
 ];
