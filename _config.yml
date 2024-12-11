@@ -3,7 +3,8 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
 # Site Settings
 locale                   : "en-US"
@@ -14,7 +15,77 @@ description              : &description "Researcher in active mobility and assis
 url                      : https://rtalaverag.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rtalaverag/rtalaverag.github.io"
-teaser                   : "500x300.png"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "Ruben Talavera-Garcia"
+  pronouns         : "he/his"  
+  bio              : "Researcher in active mobility and assistant professor"
+  location         : "Madrid, Spain"
+  employer         : "Universidad Complutense de Madrid (UCM)"
+  uri              : "https://www.ucm.es/tgis"
+  email            : "rtalaveragarcia@ucm.es"
+
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.es/citations?user=3QOiyqUAAAAJ&hl=es"
+  impactstory      : "https://profiles.impactstory.org/u/0000-0003-4749-3546"
+  orcid            : "https://orcid.org/0000-0003-4749-3546"
+  publons          : "https://publons.com/researcher/4202264/ruben-talavera-garcia/"
+  semantic         : # URL
+  pubmed           : #
+  researchgate     : "https://www.researchgate.net/profile/Ruben_Talavera-Garcia"
+  scopus           : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "rtalaverag"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  bluesky          : "rtalaverag.bsky.social"
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : "rtalaveragarcia"
+  mastodon         : "@rtalaverag"
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
+
+# Publication Category - The following the list of publication categories and their headings
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'
+
+# Site Settings
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : false
@@ -47,13 +118,16 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
+
 
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
+
 
 # Social Sharing
 twitter:
@@ -73,51 +147,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  # false (default), "google", "google-universal", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
-
-# Site Author
-author:
-  name             : "Ruben Talavera-Garcia, PhD"
-  avatar           : "profile.png"
-  bio              : "Researcher in active mobility and assistant professor"
-  location         : "Madrid, Spain"
-  employer         : "t-GIS research group, UCM"
-  publons          : "https://publons.com/researcher/4202264/ruben-talavera-garcia/"
-  googlescholar    : "https://scholar.google.es/citations?user=3QOiyqUAAAAJ&hl=es"
-  email            : "rtalaveragarcia@ucm.es"
-  researchgate     : "https://www.researchgate.net/profile/Ruben_Talavera-Garcia"
-  uri              : "https://www.ucm.es/tgis"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "rtalaverag"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : "https://profiles.impactstory.org/u/0000-0003-4749-3546"
-  lastfm           :
-  linkedin         : "rtalaveragarcia"
-  orcid            : "https://orcid.org/0000-0003-4749-3546"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  mastodon         : "@rtalaverag"
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-  bluesky          : "rtalaverag.bsky.social"
-
 
 # Reading Files
 include:
@@ -129,26 +161,29 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - CHANGELOG
+  - Capfile
   - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
   - gulpfile.js
+  - LICENSE
+  - local
   - log
   - node_modules
-  - package.json
+  - package.json*
+  - Rakefile
+  - README
   - tmp
   - vendor
-#  - assets
+
 keep_files:
   - .git
   - .svn
@@ -176,7 +211,7 @@ kramdown:
   enable_coderay: false
 
 
-# Collections
+# These settings control the types of collections used by the template
 collections:
   teaching:
     output: true
@@ -192,7 +227,7 @@ collections:
     permalink: /:collection/:path/
 
 
-# Defaults
+# These settings control how pages and collections are included in the site
 defaults:
   # _posts
   - scope:
@@ -248,6 +283,7 @@ defaults:
       author_profile: true
       share: true
 
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -263,20 +299,20 @@ timezone: Europe/Madrid # http://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 # Plugins
 plugins:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-remote-theme
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-# mimic GitHub Pages with --safe
+  - jemoji
+
+# Mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 
