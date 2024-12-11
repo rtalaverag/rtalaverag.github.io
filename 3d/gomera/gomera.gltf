@@ -8,24 +8,59 @@
 		{
 			"name":"Scene",
 			"nodes":[
-				0
+				0,
+				3
 			]
 		}
 	],
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Plane"
+			"name":"text",
+			"rotation":[
+				0.7815583348274231,
+				0.03426474332809448,
+				-0.044842179864645004,
+				0.6212742328643799
+			]
+		},
+		{
+			"name":"Bone.001",
+			"translation":[
+				0,
+				0.9999999403953552,
+				0
+			]
+		},
+		{
+			"children":[
+				1
+			],
+			"name":"Bone"
+		},
+		{
+			"children":[
+				2
+			],
+			"name":"Armature",
+			"translation":[
+				-0.3217407763004303,
+				0.05091993138194084,
+				-0.0014848466962575912
+			]
 		}
 	],
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"Material.001",
+			"name":"Material.002",
 			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":0
-				},
+				"baseColorFactor":[
+					0.800000011920929,
+					0.800000011920929,
+					0.800000011920929,
+					1
+				],
 				"metallicFactor":0,
 				"roughnessFactor":0.5
 			}
@@ -33,7 +68,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Plane",
+			"name":"Text",
 			"primitives":[
 				{
 					"attributes":{
@@ -47,90 +82,92 @@
 			]
 		}
 	],
-	"textures":[
+	"skins":[
 		{
-			"sampler":0,
-			"source":0
-		}
-	],
-	"images":[
-		{
-			"mimeType":"image/jpeg",
-			"name":"map",
-			"uri":"textures/map.jpg"
+			"inverseBindMatrices":4,
+			"joints":[
+				2,
+				1
+			],
+			"name":"Armature"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":263169,
+			"count":478,
 			"max":[
-				1,
+				2.1090002059936523,
 				0,
-				1
+				0.009000000543892384
 			],
 			"min":[
-				-1,
+				0.04000000283122063,
 				0,
-				-1
+				-0.6910000443458557
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":263169,
+			"count":478,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":263169,
+			"count":478,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
-			"componentType":5125,
-			"count":1572864,
+			"componentType":5123,
+			"count":1416,
 			"type":"SCALAR"
+		},
+		{
+			"bufferView":4,
+			"componentType":5126,
+			"count":2,
+			"type":"MAT4"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":3158028,
+			"byteLength":5736,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":3158028,
-			"byteOffset":3158028,
+			"byteLength":5736,
+			"byteOffset":5736,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":2105352,
-			"byteOffset":6316056,
+			"byteLength":3824,
+			"byteOffset":11472,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":6291456,
-			"byteOffset":8421408,
+			"byteLength":2832,
+			"byteOffset":15296,
 			"target":34963
-		}
-	],
-	"samplers":[
+		},
 		{
-			"magFilter":9729,
-			"minFilter":9987
+			"buffer":0,
+			"byteLength":128,
+			"byteOffset":18128
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":14712864,
+			"byteLength":18256,
 			"uri":"gomera.bin"
 		}
 	]
