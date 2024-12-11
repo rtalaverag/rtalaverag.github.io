@@ -35,11 +35,10 @@ author:
   googlescholar    : "https://scholar.google.es/citations?user=3QOiyqUAAAAJ&hl=es"
   impactstory      : "https://profiles.impactstory.org/u/0000-0003-4749-3546"
   orcid            : "https://orcid.org/0000-0003-4749-3546"
-  publons          : "https://publons.com/researcher/4202264/ruben-talavera-garcia/"
   semantic         : # URL
   pubmed           : #
   researchgate     : "https://www.researchgate.net/profile/Ruben_Talavera-Garcia"
-  scopus           : # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=55670965400"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -60,7 +59,7 @@ author:
   instagram        : # Username
   lastfm           : # Username
   linkedin         : "rtalaveragarcia"
-  mastodon         : "@rtalaverag"
+  mastodon         : "https://mapstodon.space/@rtalaverag"
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
