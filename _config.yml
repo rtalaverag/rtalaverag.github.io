@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Ruben Talavera-Garcia"
-  pronouns         : "he/his"  
+  pronouns         : # "he/his"  
   bio              : "Researcher in active mobility and assistant professor"
   location         : "Madrid, Spain"
   employer         : "tGIS - UCM"
