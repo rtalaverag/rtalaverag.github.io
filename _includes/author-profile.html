@@ -20,6 +20,12 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
+  <style>
+    .author__urls-wrapper {
+      color: #222222; /* El icono heredará este color */
+    }
+  </style>
+
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
