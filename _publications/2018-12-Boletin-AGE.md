@@ -1,6 +1,7 @@
 ---
 title: "Evaluando la influencia de la calidad de la distancia peatonal en la cobertura de paradas del metro ligero de Granada (España)"
 collection: publications
+category: manuscripts
 permalink:
 excerpt:
 date: 2018-12-11

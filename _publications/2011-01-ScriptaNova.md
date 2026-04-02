@@ -1,7 +1,7 @@
 ---
 title: "Hacia la integración de los planes y proyectos andaluces de movilidad metropolitana"
 collection: publications
-category: Journal articles
+category: manuscripts
 permalink:
 excerpt:
 date: 2011-01-22

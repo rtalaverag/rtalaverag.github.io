@@ -1,6 +1,7 @@
 ---
 title: "Local Planning Practice towards Resilience: Insights from the Adaptive Co-Management and Design of a Mediterranean Wetland"
 collection: publications
+category: manuscripts
 permalink:
 excerpt:
 date: 2020-04-05

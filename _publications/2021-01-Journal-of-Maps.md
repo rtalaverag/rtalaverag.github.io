@@ -1,6 +1,7 @@
 ---
 title: "Examining spatio-temporal mobility patterns of bike-sharing systems: the case of BiciMAD (Madrid)"
 collection: publications
+category: manuscripts
 permalink:
 excerpt:
 date: 2021-01-07

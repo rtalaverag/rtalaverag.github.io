@@ -1,6 +1,7 @@
 ---
 title: "Centralities in the city border: a method to identify strategic urban-rural interventions"
 collection: publications
+category: manuscripts
 permalink:
 excerpt:
 date: 2016-12-05

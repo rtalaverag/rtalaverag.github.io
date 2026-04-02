@@ -1,6 +1,7 @@
 ---
 title: "Centralidad espacial en redes de caminos: una reflexión sobre posibles aportaciones al análisis, planificación y gestión del paisaje rural"
 collection: publications
+category: manuscripts
 permalink:
 excerpt:
 date: 2021-05-12

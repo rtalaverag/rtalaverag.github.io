@@ -1,7 +1,7 @@
 ---
 title: "La accesibilidad peatonal en la integración espacial de las paradas de transporte público"
 collection: publications
-category: Journal articles
+category: manuscripts
 permalink:
 excerpt:
 date: 2012-07-01

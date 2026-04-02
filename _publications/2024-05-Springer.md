@@ -1,6 +1,7 @@
 ---
 title: "Centrality Analysis in Urban-Rural Spatial Networks: Contributions to the Study of Metropolitan Areas"
 collection: publications
+category: manuscripts
 permalink:
 excerpt:
 date: 2024-05-22
