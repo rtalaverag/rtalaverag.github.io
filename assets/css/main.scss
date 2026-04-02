@@ -10,11 +10,20 @@
  *
 */
 
-.archive,
+/* Quitar padding en páginas tipo archive (publications, teaching) */
+.archive {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.page {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 .page__inner-wrap {
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 1400px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 // @import "minimal-mistakes/skins/default"; // skin

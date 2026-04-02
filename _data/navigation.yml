@@ -5,19 +5,19 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Sobre mi"
+  - title: "About me"
     url: /about/
 
-  - title: "Afiliaciones"
+  - title: "Affiliations"
     url: /affiliations/
 
-  - title: "Publicaciones"
+  - title: "Publications"
     url: /publications/
 
-  - title: "Docencia"
+  - title: "Teaching"
     url: /teaching/
 
-  - title: "Cursos y ponencias"
+  - title: "Talks and Courses"
     url: /talks/
 
   - title: "Blog"
