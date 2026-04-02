@@ -4,7 +4,7 @@ collection: teaching
 type: "Grado"
 permalink:
 venue: "Facultad de Geografía e Historia, Universidad Complutense de Madrid"
-date: 2022-06-18
+date: 2026-01-18
 location: "Madrid, España"
 ---
 * Asignatura: Ordenación de Áreas Urbanas y Sistemas de Transporte (2022-2026)
