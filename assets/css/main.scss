@@ -40,3 +40,8 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.page {
+  max-width: none;
+  width: 95%;
+}
