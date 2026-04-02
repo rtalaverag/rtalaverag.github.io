@@ -7,5 +7,4 @@ venue: "Facultad de Geografía e Historia, Universidad Complutense de Madrid"
 date: 2020-06-01
 location: "Madrid, España"
 ---
-<!--more-->
 * Asignatura: Tecnologías de Información Geográfica (2018-2020)
