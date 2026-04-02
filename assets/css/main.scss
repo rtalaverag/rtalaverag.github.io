@@ -10,6 +10,13 @@
  *
 */
 
+.archive,
+.page__inner-wrap {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1400px;
+}
+
 // @import "minimal-mistakes/skins/default"; // skin
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
