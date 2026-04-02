@@ -18,10 +18,10 @@
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
-          <li class="masthead__menu-item persist tail">
-            <button id="theme-toggle" type="button" aria-label="Cambiar tema" class="theme-toggle-button">
+          <li id="theme-toggle" class="masthead__menu-item persist tail">
+            <a href="#" role="button" aria-labelledby="theme-icon"></a>
               <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
-            </button>
+            </a>
           </li>
         </ul>
         <ul class="hidden-links hidden"></ul>

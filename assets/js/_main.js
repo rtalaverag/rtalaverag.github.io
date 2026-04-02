@@ -100,7 +100,11 @@ $(document).ready(function () {
         });
 
   // Enable the theme toggle
-  $('#theme-toggle').on('click', toggleTheme);
+  $('#theme-toggle a').on('click', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    toggleTheme();
+  });
 
   // Enable the sticky footer
   var bumpIt = function () {
