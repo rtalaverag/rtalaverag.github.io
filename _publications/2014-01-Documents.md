@@ -1,6 +1,7 @@
 ---
 title: "La calidad peatonal como método para evaluar entornos de movilidad urbana"
 collection: publications
+category: Journal articles
 permalink:
 excerpt:
 date: 2014-01-01
