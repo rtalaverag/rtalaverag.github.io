@@ -77,12 +77,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: '02_Book Chapters'
   manuscripts:
-    title: '01_Journal Articles'    
+    title: 'Journal Articles' 
+  books:
+    title: 'Book Chapters'   
   conferences:
-    title: '03_Conference Papers'
+    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
