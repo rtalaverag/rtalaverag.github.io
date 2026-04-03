@@ -9,7 +9,7 @@
 # Site Settings
 locale                   : "en-US"
 site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Ruben Talavera-Garcia"
+title                    : "Ruben Talavera - Garcia"
 title_separator          : "-"
 name                     : &name "Ruben Talavera-Garcia"
 description              : &description "Researcher in active mobility and assistant professor"
