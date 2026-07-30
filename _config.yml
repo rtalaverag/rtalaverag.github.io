@@ -12,7 +12,7 @@ site_theme               : "mint" # The available themes options are "default", 
 title                    : "Ruben Talavera - Garcia"
 title_separator          : "-"
 name                     : &name "Ruben Talavera-Garcia"
-description              : &description "Researcher in active mobility and assistant professor"
+description              : &description "Researcher in active mobility and senior lecturer"
 url                      : https://rtalaverag.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rtalaverag/rtalaverag.github.io"
