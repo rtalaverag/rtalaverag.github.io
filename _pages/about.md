@@ -14,6 +14,6 @@ Sus líneas de investigación se centran en la accesibilidad al transporte públ
 
 ---
 
-Rubén Talavera García holds a Bachelor’s degree in Environmental Sciences and a PhD in Civil Engineering and Architecture from the University of Granada (formerly the PhD programme in Urbanism and Spatial Planning). He also holds a Master’s degree in Geographic Information Systems Management (UNIGIS) from the University of Girona. He was a Juan de la Cierva postdoctoral researcher funded by the Ministry of Science and Innovation from 2018 to 2021 in the Transport, Infrastructure and Territory (tGIS) research group at the Complutense University of Madrid (UCM). He is currently a Senior Lecturer in the Department of Geography at the UCM.
+Rubén Talavera García holds a Bachelor’s degree in Environmental Sciences and a PhD in Civil Engineering and Architecture from the University of Granada (formerly the PhD programme in Urbanism and Spatial Planning). He also holds a Master’s degree in Geographic Information Systems Management (UNIGIS) from the University of Girona. He was a Juan de la Cierva postdoctoral researcher funded by the Ministry of Science and Innovation from 2018 to 2021 in the Transport, Infrastructure and Territory (tGIS) research group at the Complutense University of Madrid (UCM). He is currently a Associate Professor in the Department of Geography at the UCM.
 
 His research focuses on public transport accessibility, pedestrian mobility and urban design, all supported by spatial analysis using Geographic Information Systems (GIS).
